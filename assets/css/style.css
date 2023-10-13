@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+.header {
+    padding: 20px;
+    font-family: 'garamond''Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(20, 130, 121);
+    color: #ffffff;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 50px;
+}
+
+.header nav {
+    padding-top: 20px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri, 'Trebuchet MS'
+}
+
+.header nav ul {
+    list-style-type: none;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+
+
+.hero {
+    height: 500px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/avatar2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/*About Section*/
+
+
+.About {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; }
+
+h2 {
+    font-size: 40px;
+    font-family:'garamond''Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#pic img{
+    width: 300px;
+    height: 300px; 
+}
+
+p {
+    margin-top: 20px; 
+    order: 1; 
+}
+
+/*Work Section*/
+
+.image-container {
+    display: flex;
+    align-items: center; /* To vertically center the images */
+}
+
+.image-container img {
+    width: 150px;
+    max-width: 100%;
+}
+
+/* Apply margin-right only to the first two images */
+.image-container img:not(:last-child) {
+    margin-right: 10px;
+}
+
+
+
+
+
